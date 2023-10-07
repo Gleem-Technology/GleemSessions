@@ -23,7 +23,7 @@ namespace GleemSessions.DesignPatternsDemo
             }
 
             var arr = basicSingletons.ToArray();
-            var arr = threadSafeSingleton.ToArray();
+            //var arr = threadSafeSingleton.ToArray();
 
             Console.WriteLine(arr[0].GetHashCode());
             Console.WriteLine(arr[1].GetHashCode());
