@@ -8,13 +8,6 @@ namespace GleemSessions.DesignPatternsDemo
     {
         static void Main()
         {
-            IShirtFactory shirtFactory = new ArabianThobeFactory();
-            IShirt shirt = shirtFactory.CreateShirt();
-            shirt.Describe();
-
-            shirtFactory = new AbujaShirtFactory();
-            shirt = shirtFactory.CreateShirt();
-            shirt.Describe();
         }
     }
 }
