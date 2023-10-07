@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GleemSessions.DesignPatternsDemo.CreationalPatterns
+namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.Singletons
 {
     public class BasicSingleton
     {

@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GleemSessions.DesignPatternsDemo.CreationalPatterns
+﻿namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.Singletons
 {
     public class ThreadSafeSingleton
     {
-        private static object _lock = new object();
+        public string Value { get; set; } = "Hello";
 
         #region Singleton
+        private static object _lock = new();
         private static ThreadSafeSingleton _instance;
         private ThreadSafeSingleton() { }
         public static ThreadSafeSingleton GetInstance()
