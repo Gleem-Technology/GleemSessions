@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GleemSessions.DesignPatternsDemo", "GleemSessions.DesignPatternsDemo\GleemSessions.DesignPatternsDemo.csproj", "{11E578F3-064D-44E3-A34F-566EB8F559E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E578F3-064D-44E3-A34F-566EB8F559E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E578F3-064D-44E3-A34F-566EB8F559E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E578F3-064D-44E3-A34F-566EB8F559E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E578F3-064D-44E3-A34F-566EB8F559E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DAFBA94-8094-4C23-8747-A22A952D2011}
+	EndGlobalSection
+EndGlobal
