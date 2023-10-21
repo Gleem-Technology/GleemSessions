@@ -1,6 +1,6 @@
 ﻿namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public interface IShirt
+    public interface IGarment
     {
         string Name { get; }
         void Describe();

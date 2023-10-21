@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public class ArabianThobeFactory : IShirtFactory
+    public class ArabianGarmentFactory : IGarmentFactory
     {
-        public IShirt CreateShirt()
+        public IGarment CreateGarment()
         {
             return new Thobe();
         }

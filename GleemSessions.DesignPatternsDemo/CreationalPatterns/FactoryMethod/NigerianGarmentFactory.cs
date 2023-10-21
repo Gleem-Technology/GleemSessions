@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public class AbujaShirtFactory : IShirtFactory
+    public class NigerianGarmentFactory : IGarmentFactory
     {
-        public IShirt CreateShirt()
+        public IGarment CreateGarment()
         {
             return new ApoBridgeConductorShirt();
         }

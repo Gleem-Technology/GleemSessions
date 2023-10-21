@@ -12,10 +12,13 @@ namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.Singletons
 
         #region Singleton
         private static BasicSingleton _instance;
-        private BasicSingleton() { }
+        private BasicSingleton()
+        {
+        }
+
         public static BasicSingleton GetInstance()
         {
-            if (_instance is null)
+            if (_instance == null)
             {
                 _instance = new BasicSingleton();
             }

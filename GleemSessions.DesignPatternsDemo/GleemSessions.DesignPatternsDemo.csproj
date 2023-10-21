@@ -6,4 +6,9 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 	</PropertyGroup>
 
+	<ItemGroup>
+	  <Folder Include="CreationalPatterns\Prototype\" />
+	  <Folder Include="Models\" />
+	</ItemGroup>
+
 </Project>

@@ -1,7 +1,7 @@
 ﻿namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public interface IShirtFactory
+    public interface IGarmentFactory
     {
-        IShirt CreateShirt();
+        IGarment CreateGarment();
     }
 }

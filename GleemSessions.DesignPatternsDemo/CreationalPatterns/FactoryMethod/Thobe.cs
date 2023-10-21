@@ -1,6 +1,6 @@
 ﻿namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public class Thobe : IShirt
+    public class Thobe : IGarment
     {
         public string Name { get; set; }
             = "Blue Looking Saudi Jallabiya";

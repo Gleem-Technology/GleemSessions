@@ -1,6 +1,6 @@
 ﻿namespace GleemSessions.DesignPatternsDemo.CreationalPatterns.FactoryMethod
 {
-    public class ApoBridgeConductorShirt : IShirt
+    public class ApoBridgeConductorShirt : IGarment
     {
         public string Name { get; set; }
             = "Under the Bridge Sweatshirt";
